@@ -24,6 +24,14 @@
         mode: "cors",
         cache: "default",
         keepalive: false,
+      }).then(async (res) => {
+        if(res.ok) {
+          console.log("== Ok");
+          var jokeObject = await res.json({})
+          console.log(jokeObject);
+        } else {
+          console.log('== Mauvaise réponse du réseau');
+        }
       })
       .catch((err) => {
         console.log('Il y a eu un problème avec l\'opération fetch: ' + err.message);
