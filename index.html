@@ -14,5 +14,14 @@
 
     </div>
   </div>
+  <script type="text/javascript">
+    const f = () => {
+      fetch('https://v2.jokeapi.dev/joke/Any?lang=fr&blacklistFlags=political')
+      })
+      .catch((err) => {
+        console.log('Il y a eu un problème avec l\'opération fetch: ' + err.message);
+      });
+    }
+  </script>
 </body>
 </html>
