@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -10,6 +15,16 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex; justify-content: center; align-items: center;
+}
+
+.box {
+  background: #1115;/* #942; */
+  border-radius: 10px;
+}
+
+.params {
+  width: 200px;
+  height: 200px;
 }
 
 .joke {
