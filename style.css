@@ -1,10 +1,19 @@
 body {
   width: 100vw;
   height: 100vh;
+  font-family: sans-serif;
+  background: #007BFF;
+  background: linear-gradient(123deg, #FF007B 0%, #007BFF 100%);
 }
 
 #app {
-  background: #942;
+  width: 100vw;
+  height: 100vh;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.joke {
   width: 200px;
   height: 200px;
+  cursor: pointer;
 }
