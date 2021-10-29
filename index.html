@@ -9,34 +9,25 @@
 </head>
 
 <body>
-  <div id="app" onclick="f()">
-    <div class="joke">
-
-    </div>
+  <div id="app">
+		<div class="params box">
+			<h2 class="params-h2">Params</h2>
+			<hr><hr>
+			<div class="language">
+				<label for="select-language" class="select-language-label">Select a language</label>
+				<select class="select-language" name="select-language">
+					<option value="cs">Česká</option>
+					<option value="de">Deutsch</option>
+					<option value="en">English</option>
+					<option value="es">Español</option>
+					<option value="fr">Français</option>
+					<option value="pt">Português</option>
+				</select>
+				<hr>
+			</div>
+		</div>
+    <div class="joke box"></div>
   </div>
-  <script type="text/javascript">
-    const f = () => {
-      fetch('https://v2.jokeapi.dev/joke/Any?lang=fr&blacklistFlags=political', {
-        method: "GET",
-        headers: {
-          //"Content-Type": "text/plain;charset=UTF-8"
-        },
-        mode: "cors",
-        cache: "default",
-        keepalive: false,
-      }).then(async (res) => {
-        if(res.ok) {
-          console.log("== Ok");
-          var jokeObject = await res.json({})
-          console.log(jokeObject);
-        } else {
-          console.log('== Mauvaise réponse du réseau');
-        }
-      })
-      .catch((err) => {
-        console.log('Il y a eu un problème avec l\'opération fetch: ' + err.message);
-      });
-    }
-  </script>
+	<script type="module" src="./main.js" charset="utf-8"></script>
 </body>
 </html>
