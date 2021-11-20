@@ -1,4 +1,11 @@
 export const tltn = {
+  de: { ////////// DE ////////// DE ////////// DE ////////// DE ////////// DE ////////// DE
+    "params-h2": "Parameter",
+    "select-language-label": "Wähle eine Sprache:",
+    "blacklist-flags-inputs-label": "Wählen Sie die unerwünschten Themen aus:",
+    "no-matching-error": "Entschuldigung, kein passender Witz gefunden.",
+    "blacklist-nsfw-label" : "nsfw",
+  },
   en: { ////////// EN ////////// EN ////////// EN ////////// EN ////////// EN ////////// EN
     "params-h2": "Parameters",
     "select-language-label": "Select a language:",
