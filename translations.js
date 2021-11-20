@@ -16,6 +16,11 @@ export const tltn = {
     "select-language-label": "Sélectionnez une langue:",
     "blacklist-flags-inputs-label": "Sélectionnez les thèmes indésirables:",
     "no-matching-error": "Désolé, aucune blague correspondante trouvée.",
-    "blacklist-nsfw-label" : "nsfw"
+    "blacklist-nsfw-label" : "nsfw",
+    "blacklist-religious-label" : "religieux",
+    "blacklist-political-label" : "politique",
+    "blacklist-racist-label" : "raciste",
+    "blacklist-sexist-label" : "sexiste",
+    "blacklist-explicit-label" : "explicite"
   }
 };
