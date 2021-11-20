@@ -5,6 +5,11 @@ export const tltn = {
     "blacklist-flags-inputs-label": "Wählen Sie die unerwünschten Themen aus:",
     "no-matching-error": "Entschuldigung, kein passender Witz gefunden.",
     "blacklist-nsfw-label" : "nsfw",
+    "blacklist-religious-label" : "religiös",
+    "blacklist-political-label" : "politische",
+    "blacklist-racist-label" : "rassistisch",
+    "blacklist-sexist-label" : "sexistisch",
+    "blacklist-explicit-label" : "explizit"
   },
   en: { ////////// EN ////////// EN ////////// EN ////////// EN ////////// EN ////////// EN
     "params-h2": "Parameters",
