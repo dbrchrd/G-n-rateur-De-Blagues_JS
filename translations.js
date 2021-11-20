@@ -22,7 +22,14 @@ export const tltn = {
     "blacklist-racist-label" : "racist",
     "blacklist-sexist-label" : "sexist",
     "blacklist-explicit-label" : "explicit"
-  }
+  },
+  es: { ////////// ES ////////// ES ////////// ES ////////// ES ////////// ES ////////// ES
+    "params-h2": "Ajustes",
+    "select-language-label": "Seleccione un lenguaje:",
+    "blacklist-flags-inputs-label": "Seleccione temas no deseados:",
+    "no-matching-error": "Lo siento, no se encontró ninguna broma que coincida.",
+    "blacklist-nsfw-label" : "nsfw"
+  },
   fr: { ////////// FR ////////// FR ////////// FR ////////// FR ////////// FR ////////// FR
     "params-h2": "Paramètres",
     "select-language-label": "Sélectionnez une langue:",
