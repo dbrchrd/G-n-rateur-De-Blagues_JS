@@ -4,7 +4,12 @@ export const tltn = {
     "select-language-label": "Vyberte jazyk:",
     "blacklist-flags-inputs-label": "Vyberte nežádoucí motivy:",
     "no-matching-error": "Omlouváme se, nebyl nalezen žádný odpovídající vtip.",
-    "blacklist-nsfw-label" : "nsfw"
+    "blacklist-nsfw-label" : "nsfw",
+    "blacklist-religious-label" : "náboženský",
+    "blacklist-political-label" : "politický",
+    "blacklist-racist-label" : "rasista",
+    "blacklist-sexist-label" : "sexistický",
+    "blacklist-explicit-label" : "explicitní"
   },
   de: { ////////// DE ////////// DE ////////// DE ////////// DE ////////// DE ////////// DE
     "params-h2": "Parameter",
