@@ -46,5 +46,12 @@ export const tltn = {
     "blacklist-racist-label" : "raciste",
     "blacklist-sexist-label" : "sexiste",
     "blacklist-explicit-label" : "explicite"
+  },
+  pt: { ////////// PT ////////// PT ////////// PT ////////// PT ////////// PT ////////// PT
+    "params-h2": "Configuração",
+    "select-language-label": "Selecione uma língua:",
+    "blacklist-flags-inputs-label": "Selecione os temas indesejados:",
+    "no-matching-error": "Desculpe, não encontrei nenhuma piada correspondente.",
+    "blacklist-nsfw-label" : "nsfw",
   }
 };
