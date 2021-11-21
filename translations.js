@@ -53,5 +53,10 @@ export const tltn = {
     "blacklist-flags-inputs-label": "Selecione os temas indesejados:",
     "no-matching-error": "Desculpe, não encontrei nenhuma piada correspondente.",
     "blacklist-nsfw-label" : "nsfw",
+    "blacklist-religious-label" : "religioso",
+    "blacklist-political-label" : "político",
+    "blacklist-racist-label" : "racista",
+    "blacklist-sexist-label" : "sexista",
+    "blacklist-explicit-label" : "explícito"
   }
 };
