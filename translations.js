@@ -1,4 +1,11 @@
 export const tltn = {
+  cs: { ////////// CS ////////// CS ////////// CS ////////// CS ////////// CS ////////// CS
+    "params-h2": "Parametry",
+    "select-language-label": "Vyberte jazyk:",
+    "blacklist-flags-inputs-label": "Vyberte nežádoucí motivy:",
+    "no-matching-error": "Omlouváme se, nebyl nalezen žádný odpovídající vtip.",
+    "blacklist-nsfw-label" : "nsfw"
+  },
   de: { ////////// DE ////////// DE ////////// DE ////////// DE ////////// DE ////////// DE
     "params-h2": "Parameter",
     "select-language-label": "Wähle eine Sprache:",
