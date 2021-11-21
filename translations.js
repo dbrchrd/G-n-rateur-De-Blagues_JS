@@ -28,7 +28,12 @@ export const tltn = {
     "select-language-label": "Seleccione un lenguaje:",
     "blacklist-flags-inputs-label": "Seleccione temas no deseados:",
     "no-matching-error": "Lo siento, no se encontró ninguna broma que coincida.",
-    "blacklist-nsfw-label" : "nsfw"
+    "blacklist-nsfw-label" : "nsfw",
+    "blacklist-religious-label" : "religioso",
+    "blacklist-political-label" : "político",
+    "blacklist-racist-label" : "racista",
+    "blacklist-sexist-label" : "sexista",
+    "blacklist-explicit-label" : "explícito"
   },
   fr: { ////////// FR ////////// FR ////////// FR ////////// FR ////////// FR ////////// FR
     "params-h2": "Paramètres",
